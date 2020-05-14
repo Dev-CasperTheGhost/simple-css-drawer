@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Drawer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-icon">
+            <img class="open-drawer l-open" src="svgs/bars-solid.svg" alt="open drawer" />
+        </div>
+        <div class="nav-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+            <img class="open-drawer r-open" src="svgs/bars-solid.svg" alt="open drawer" />
+        </div>
+    </nav>
+    <!-- Left Drawer -->
+    <aside class="l-drawer" id="l-drawer">
+        <div class="l-drawer-icon">
+            <h1>Left Drawer</h1>
+            <img src="svgs/times-solid.svg" alt="close drawer" class="l-close" />
+        </div>        
+    </aside>
+
+    <!-- Right Drawer -->
+    <aside class="r-drawer" id="r-drawer">
+        <div class="r-drawer-icon">
+            <img src="svgs/times-solid.svg" alt="close drawer" class="r-close" />
+            <h1>Right Drawer</h1>
+        </div>        
+    </aside>
+
+    <div class="container">
+        <a target="_blank" href="https://github.com/Dev-CasperTheGhost/simple-css-drawer">Source Code</a>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
