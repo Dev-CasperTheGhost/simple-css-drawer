@@ -1,6 +1,6 @@
 # CSS Drawer - Left & Right sides
 
-simple css drawers to open!
+simple responsive css drawers to open!
 
 ## Demo
 
