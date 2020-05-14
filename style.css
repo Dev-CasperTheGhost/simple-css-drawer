@@ -82,7 +82,7 @@ img {
   width: 250px;
   background-color: #292b2c;
   color: var(--light);
-  transition: all 1s;
+  transition: all 0.55s;
 }
 
 .l-drawer-icon {
@@ -112,7 +112,7 @@ img {
   width: 250px;
   background-color: #292b2c;
   color: var(--light);
-  transition: all 1s;
+  transition: all 0.55s;
 }
 
 .r-drawer-icon {
